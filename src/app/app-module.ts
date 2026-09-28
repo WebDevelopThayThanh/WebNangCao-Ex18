@@ -23,7 +23,11 @@ import { ProductListCallHttpServiceComponent } from './product-list-call-http-se
 import { ServiceProductImageEventComponent } from './service-product-image-event/service-product-image-event';
 import { ServiceProductImageEventDetailComponent } from './service-product-image-event-detail/service-product-image-event-detail';
 
-import { CatalogComponent } from './catalog/catalog';
+//import { CatalogComponent } from './catalog/catalog';
+//import { ProductHttpHandleErrorServiceComponent } from './product-http-handle-error-service-component/product-http-handle-error-service-component';
+//import { ProductDetailComponent } from './product-detail-component/product-detail-component';
+//import { ProductListAdvancedComponent } from './product-list-advanced-component/product-list-advanced-component';
+import { GroupCustomersComponent } from './group-customers/group-customers';
 
 @NgModule({
   declarations: [
@@ -41,7 +45,11 @@ import { CatalogComponent } from './catalog/catalog';
     ProductListCallHttpServiceComponent,
     ServiceProductImageEventComponent,
     ServiceProductImageEventDetailComponent,
-    CatalogComponent,
+    //CatalogComponent,
+    //ProductHttpHandleErrorServiceComponent,
+    //ProductDetailComponent,
+    //ProductListAdvancedComponent,
+    GroupCustomersComponent
   ],
   imports: [BrowserModule, CommonModule, FormsModule, HttpClientModule, AppRoutingModule],
   providers: [],
